@@ -51,7 +51,7 @@ const updateuser = (request, response) => {
         if (error) {
           throw error
         }
-        response.status(200).send(`User modified with : ${results.rows[0].id}}`)
+        response.status(200).send(`User modified with : ${id}`)
       }
     )
   }
